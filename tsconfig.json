@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": false,
+    "allowUnreachableCode": true,
+    "strict": true,
+    "outDir": "out",
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "target": "es2017",
+    "preserveConstEnums": true,
+    "lib": [
+      "ES2015",
+      "ES2016.Array.Include",
+      "ES2017.String",
+      "ES2018.Promise",
+      "DOM",
+      "DOM.Iterable",
+      "WebWorker.ImportScripts"
+    ]
+  },
+  "include": ["./src"]
+}

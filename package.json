@@ -1,0 +1,14 @@
+{
+  "name": "reversedep",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./out/workbench/workbench.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "4.5.2"
+  }
+}
